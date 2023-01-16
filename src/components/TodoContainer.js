@@ -24,6 +24,10 @@ class TodoContainer extends React.Component {
 		]
 	 };
 
+	 handleChange = () => {
+		console.log("clicked");
+	};
+
   render() {
 		return (
 			<div>
